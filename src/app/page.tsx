@@ -38,13 +38,10 @@ export default function Home() {
             onClick={generateNewBoard}
             className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
           >
-            Generate New Board
+            New Board
           </button>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        footer
-      </footer>
     </div>
   );
 }
